@@ -60,34 +60,134 @@ body {
 
 header {
     background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 20px 10px;
+    box-shadow: 5px 5px 10px #999;
+}
+
+.search-bar {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.search-svg {
+    width: 18px;
+    height: 18px;
+    padding: 10px;
 }
 
 input {
+    color: #333;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 90%);
+    border: none;
+    width: 600px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+input::placeholder {
+    color: #999;
+    font-style: italic; 
+}  
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.notification-svg {
+    width: 20px;
+    height: 20px;
+}
+
+.smallerleaf-svg {
+    width: 40px;
+    height: 40px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.user-greeting {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+.largerleaf-svg {
+    width: 80px;
+    height: 80px;
+}
+
+.greeting {
+    font-size: .8rem;
+    font-weight: 800;
+}
+
+.contact-name {
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.buttons {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 30px;
+    font-weight: 700;
 }
 
 .main-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    align-items: center;
     gap: 15px;
 }
 
 .first-section  {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 25px; 
     margin-left: 10px; 
+    margin-top: 66px;
 }
 
 article {
     background-color: white;
     border-radius: 8px;
     border-left: 8px solid orange; 
+    text-align: center;
+}
+
+article h3 {
+    margin-bottom: 0;
 }
 
 article p,
-.second-section p {
-    font-weight: 100;
+.div-top p {
+    font-weight: lighter;
+}
+
+.save-svg, .follow-svg, .source-fork-svg {
+    width: 20px;
+    height: 20px;
 }
 
 .second-section div {
