@@ -6,4 +6,4 @@ This is a straightforward admin dashboard project created using HTML and CSS. It
 
 # Live demo
 
-[View live demo]()
+[View live demo](https://mswali-code.github.io/Admin-dashboard/)
