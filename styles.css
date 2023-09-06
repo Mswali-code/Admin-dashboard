@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: hsl(0, 0%, 90%);
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .grid-container {
@@ -22,7 +22,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
     list-style: none;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .grid-item {
@@ -83,7 +83,7 @@ header {
 input {
     color: #333;
     font-size: 1rem;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: hsl(0, 0%, 90%);
     border: none;
     width: 600px;
@@ -131,11 +131,11 @@ input::placeholder {
 
 .greeting {
     font-size: .8rem;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .contact-name {
-    font-weight: 800;
+    font-weight: 900;
     font-size: 1.4rem;
 }
 
@@ -151,7 +151,7 @@ button {
     border-radius: 20px;
     border: none;
     padding: 8px 30px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .main-container {
@@ -168,7 +168,7 @@ button {
 
 .first-section-title {
     position: absolute;
-    font-weight: 800;
+    font-weight: 900;
     top: -5%;
     font-size: 1.3rem;
     text-shadow:2px 2px 4px #999;
@@ -199,6 +199,7 @@ article {
 }
 
 .first-section article p {
+    font-weight: 300;
     margin-top: 0;
 }
 
@@ -222,7 +223,7 @@ article {
 
 .div-top-title {
     position: absolute;
-    font-weight: 800;
+    font-weight: 900;
     top: -5%;
     right: 9.5%;
     font-size: 1.3rem;
@@ -244,6 +245,7 @@ article {
 .div-top div p {
     margin-top: 0;
     font-size: .9rem;
+    font-weight: 300;
 }
 
 .trending-title {
@@ -251,7 +253,7 @@ article {
     top: 56%;
     right: 16%;
     text-shadow: 2px 2px 4px #999;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 1.3rem;
 }
 
@@ -276,6 +278,10 @@ article {
     font-size: .9rem; 
 }
 
+.trending-person div {
+    font-weight: 300;
+}
+
 .horse-svg, .motorcycle-svg, .headphones-svg,.island-svg {
     width: 30px;
     height: 30px;
@@ -284,5 +290,5 @@ article {
 .trending-person a {
     text-decoration: none;
     color: black;
-    font-weight: 600; 
+    font-weight: 900; 
 }
