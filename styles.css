@@ -8,7 +8,6 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    min-height: 100vh; 
 }
 
 .sidebar {
@@ -22,7 +21,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
     list-style: none;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .grid-item {
@@ -131,11 +130,11 @@ input::placeholder {
 
 .greeting {
     font-size: .8rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .contact-name {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.4rem;
 }
 
@@ -151,7 +150,7 @@ button {
     border-radius: 20px;
     border: none;
     padding: 8px 30px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .main-container {
@@ -168,7 +167,7 @@ button {
 
 .first-section-title {
     position: absolute;
-    font-weight: 900;
+    font-weight: 700;
     top: -5%;
     font-size: 1.3rem;
     text-shadow:2px 2px 4px #999;
@@ -199,7 +198,7 @@ article {
 }
 
 .first-section article p {
-    font-weight: 300;
+    font-weight: 100;
     margin-top: 0;
 }
 
@@ -223,7 +222,7 @@ article {
 
 .div-top-title {
     position: absolute;
-    font-weight: 900;
+    font-weight: 700;
     top: -5%;
     right: 9.5%;
     font-size: 1.3rem;
@@ -245,7 +244,7 @@ article {
 .div-top div p {
     margin-top: 0;
     font-size: .9rem;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .trending-title {
@@ -253,7 +252,7 @@ article {
     top: 56%;
     right: 16%;
     text-shadow: 2px 2px 4px #999;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.3rem;
 }
 
@@ -279,7 +278,7 @@ article {
 }
 
 .trending-person div {
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .horse-svg, .motorcycle-svg, .headphones-svg,.island-svg {
@@ -290,5 +289,5 @@ article {
 .trending-person a {
     text-decoration: none;
     color: black;
-    font-weight: 900; 
+    font-weight: 700; 
 }
